@@ -1,45 +1,40 @@
+/*----------------------------------------------main----------------------------------------------*/
 body{
     font-family: 'Montserrat', sans-serif;
-}
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.4rem;
-    line-height: 1.5;
-    font-weight: 900;
+    text-align: center;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 1.5;
-
-}
-    
-
-h3{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
 p{
+    font-family: 'Montserrat', sans-serif;
     color: #8f8f8f;
 }
 
-.umm{
-    font-size: 3.3rem;
-    margin: 1rem;
-}
-#title{
-    background-color: #FF4C68;
+/*----------------------------------------------Big Heading----------------------------------------------*/
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.4rem;
+    line-height: 1.5;
+    font-weight: 900;
     color: #FFF;
 }
 
-.container-fluid{
-    padding: 4% 15% 7%;
+.pricing-heading{
+    font-size: 3rem;
 }
 
-/* navigation bar  */
+/* container sectiom */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/*----------------------------------------------navigation bar----------------------------------------------*/
 .navbar{
     padding: 0 0 4.5rem;
 }
@@ -60,12 +55,22 @@ p{
 
 }
 
-/* download-button */
+/*----------------------------------------------download-button----------------------------------------------*/
 .download-button{
     margin: 5% 3% 5% 0;
 }
 
-/* title-image */
+/*----------------------------------------------title-section----------------------------------------------*/
+
+#title{
+    background-color: #FF4C68;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
 .title-image{
     size: 3%;
     transform: rotate(25deg);
@@ -83,44 +88,51 @@ p{
     }
 }
 
-/* font awesome  */
-.fa-solid{
-    color: #EF8172;
-}
-.fa-solid:hover{
-    color: #FF4C68;
-}
+/*----------------------------------------------feature box----------------------------------------------*/
 #features{
-    padding: 7% 15%;
     background-color: #FFF;
     position: relative;
 }
+
+.feature-icon{
+    font-size: 3.3rem;
+    margin: 1rem;
+}
+
+.fa-solid{
+    color: #EF8172;
+}
+
+.fa-solid:hover{
+    color: #FF4C68;
+}
+
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
-/* testimonial section  */
+
+/*----------------------------------------------testimonial section----------------------------------------------*/
 #testimonials{
     background-color: #EF8172;
-    text-align: center;
     color: #FFF;
 }
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .testimonial-image{
     width: 10%;
     height: 10%;
     border-radius: 100%;
     margin: 20px;
 }
-.carousel-item{
-    padding: 7% 15%;
 
-}
-
-/* press section  */
+/*----------------------------------------------press section----------------------------------------------*/
 #press{
     background-color: #EF8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 .press-image{
@@ -129,7 +141,17 @@ p{
     margin: 20px 20px 50px;
 }
 
-/* pricing section  */
+/*----------------------------------------------pricing section----------------------------------------------*/
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-text{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
 .card-header{
     padding-bottom: 0;
 }
@@ -137,34 +159,14 @@ p{
     padding: 3% 2%;
 }
 
-.pric-ext{
-    text-align: center;
-}
-#pricing{
-    padding: 100px;
-    text-align: center;
-}
-
-/* call to action */
+/*----------------------------------------------call to action----------------------------------------------*/
 #cta{
     background-color: #FF4C68;
-    padding: 7% 15%;
-    text-align: center;
-}
-.h3cta{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.4rem;
-    line-height: 1.5;
-    font-weight: 700;
-    color: #FFF;
 }
 
-
-/* footer section */
+/*----------------------------------------------footer section----------------------------------------------*/
 #footer{
-    padding: 7% 15%;
     color: #FFF;
-    text-align: center;
 }
 
 .fa-twitter{
